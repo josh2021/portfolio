@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="http://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+	<title>Portfolio for Project 1</title>
+	<link rel="stylesheet" href="css/main.css">
+	<!--Since bootstrap was not used I commented it out. I left it in as a comment, however, since I may use it in future projects using this code.
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">-->
+</head>
+<body>
+	<div class="grid">
+		<!-- This is the header row in the webpage-->
+		<header class="manualrow">
+			<div class="col-2">
+				<img src="img/leaf_logo.png" class="logo" alt="logo">
+			</div>
+			<div class="col-10">
+				<h1 class="name">jane doette</h1>
+				<h2 class="handle">front-end ninja</h2>
+			</div>
+		</header>
+		<!--This is an underline in the webpage-->
+		<div class="manualrow">
+			<div class="col-12">
+				<hr class="underline">
+			</div>
+		</div>
+		<!--This is the central hero picture in the webpage.-->
+		<figure class="manualrow">
+			<div class="col-12">
+				<picture>
+					<source media="(min-width: 475px)" srcset="img/hero_field_small.jpg">
+					<img class="hero" src="img/hero_field-compressed.jpg" alt="hero_field">
+				</picture>
+			</div>
+		</figure>
+		<!--This is the Featured Work intro to the webpage-->
+		<section class="manualrow">
+			<div class="col-12">
+				<h1 class="works">Featured Work</h1>
+			</div>
+		</section>
+		<!--This is the navigation of works completed-->
+		<section class="columndroprow">
+			<div class="col-12-special">
+				<div>
+					<img src="img/field1.jpg" alt="field_one">
+					<h1 class="apptext">Appify</h1>
+					<nav class="urlline">
+						<a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a>
+					</nav>
+				</div>
+				<div>
+					<img src="img/field2.jpg" alt="field_two">
+					<h1 class="apptext">Sunflower</h1>
+					<nav class="urlline">
+						<a href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a>
+					</nav>
+				</div>
+				<div>
+					<img src="img/field3.jpg" alt="field_three">
+					<h1 class="apptext">Bokeh</h1>
+					<nav class="urlline">
+						<a href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a>
+					</nav>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>

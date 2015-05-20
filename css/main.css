@@ -1,0 +1,214 @@
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+a:link, a:visited {
+    font: 300 100% Lato;
+    color: #5d5c4e;
+}
+
+@media only screen and (min-width: 934px) {
+    .columndroprow {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .col-12-special {
+        width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 933px) {
+    .columndroprow {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .col-12-special {
+        width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width: 571px) {
+    .name {
+        font: 100 390% Lato;
+        color: #5d5c4e;
+        text-transform: uppercase;
+        text-align: right;
+        margin: 80px 0 4px 0;
+    }
+
+    .works {
+        font: 400 300% Lato;
+        color: #b5b4b5;
+        margin: 0 0 0 12px;
+    }
+
+    .handle {
+        font: 400 140% Lato;
+        color: #5d5c4e;
+        text-transform: uppercase;
+        margin: 0 0 24px 0;
+        text-align: right;
+    }
+
+    .logo {
+        max-width: 150px;
+        margin: 40px 0 5px 0;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 570px) {
+    .name {
+        font: 100 300% Lato;
+        color: #5d5c4e;
+        text-transform: uppercase;
+        text-align: right;
+        margin: 80px 0 4px 0;
+    }
+
+    .works {
+        color: #b5b4b5;
+        font: 400 200% Lato;
+        margin: 0 0 0 12px;
+    }
+
+    .handle {
+        font: 400 100% Lato;
+        color: #5d5c4e;
+        text-transform: uppercase;
+        margin: 0 0 24px 0;
+        text-align: right;
+    }
+
+    .logo {
+        max-width: 120px;
+        margin: 40px 0 5px 0;
+    }
+}
+
+@media only screen and (max-width: 449px) {
+    .name {
+        font: 100 190% Lato;
+        color: #5d5c4e;
+        text-transform: uppercase;
+        text-align: right;
+        margin: 80px 0 4px 0;
+    }
+
+    .works {
+        color: #b5b4b5;
+        font: 400 170% Lato;
+        margin: 0 0 0 12px;
+    }
+
+    .handle {
+        font: 400 95% Lato;
+        color: #5d5c4e;
+        text-transform: uppercase;
+        margin: 0 0 24px 0;
+        text-align: right;
+    }
+
+    .logo {
+        max-width: 90px;
+        margin: 40px 0 5px 0;
+    }
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.manualrow {
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.underline {
+    border: 2px solid #bcbbbb;
+}
+
+.hero {
+    margin: 27px 0 0 0;
+    max-width: 100%;
+}
+
+.apptext {
+    font: 400 240% Lato;
+    color: #5d5c4e;
+    text-transform: uppercase;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+.urlline {
+    font: 300 100% Lato;
+    color: #5d5c4e;
+    margin: 7px 0 50px 0;
+    text-align: center;
+}
